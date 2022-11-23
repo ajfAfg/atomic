@@ -66,3 +66,7 @@ $ atomic echo foo # "foo" should be output.
 ```
 
 A solution to this problem is being sought.
+
+## LICENSE
+
+MIT
