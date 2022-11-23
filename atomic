@@ -1,0 +1,10 @@
+#!/bin/sh
+
+LOCK=/tmp/.lock
+
+# NOTE: Atomically detect and acquire the lock.
+mkdir $LOCK >/dev/null 2>&1
+if [ $? -eq 0 ]; then
+    $@
+    rmdir $LOCK
+fi
