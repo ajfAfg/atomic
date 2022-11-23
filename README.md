@@ -1,6 +1,6 @@
 # atomic
 
-`atomic` is a command that runs atomically on commands received as arguments.
+`atomic` is a command that atomically runs commands received as arguments.
 
 ## Quick start
 
